@@ -1,2 +1,2 @@
 # css-drills-for-reference
-There are separate directories for reference as needed. Some common examples that sometimes we often forget so I will put them here as my notes so they are always here. 
+There are separate directories for reference as needed. Some common examples needed in css to accomplish various thiings. Hopefull this helps out, cheers.
