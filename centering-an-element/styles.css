@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 50%;
   /* Set a fixed width and height to maintain the circle shape */
   width: 75px;
@@ -13,10 +13,16 @@
 .box {
   /* Center text horizontally */
   text-align: center;
+  color: white;
 }
 
 h1 {
   /* Remove default margin for h1 */
   margin: 0;
   padding-top: 19px;
+}
+
+/* Gradient color taken from: https://uigradients.com/#VisionsofGrandeur */
+body {
+  background: linear-gradient(to right, #000046, #1cb5e0);
 }
