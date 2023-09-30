@@ -1,0 +1,65 @@
+/* Gradient color taken from: https://uigradients.com/#VisionsofGrandeur */
+body {
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  margin: 0; /* Remove default body margin */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh;
+}
+
+/* Center text inside .box elements */
+.box {
+  text-align: center;
+  /* Other styles for .box... */
+}
+
+/* Remove default margin */
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr; /* By default, stack elements vertically */
+  gap: 10px; /* Add some space between elements */
+}
+
+/* Define the styles for .col */
+.col {
+  width: 100%; /* Initially, each column takes the full width */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /*Add a semi-transparent white background for visibility */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Media query for medium screens (768px and wider) */
+@media (min-width: 768px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+}
+
+/* Media query for large screens (992px and wider) */
+@media (min-width: 992px) {
+  .row {
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+  }
+}
+
+/* Media query for extra-large screens (1200px and wider) */
+@media (min-width: 1200px) {
+  .row {
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+  }
+}
